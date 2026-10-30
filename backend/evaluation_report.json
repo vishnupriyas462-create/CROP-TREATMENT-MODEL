@@ -1,0 +1,92 @@
+{
+  "total_images": 1140,
+  "elapsed_seconds": 73.61,
+  "throughput_fps": 15.49,
+  "top1_accuracy_pct": 63.51,
+  "top3_accuracy_pct": 85.35,
+  "healthy_recall_pct": 95.0,
+  "diseased_recall_pct": 93.85,
+  "per_crop_accuracy": {
+    "Tomato": 43.0,
+    "Corn (Maize)": 98.33,
+    "Apple": 55.83,
+    "Corn maize": 81.67,
+    "Orange": 90.0,
+    "Cherry including sour": 61.67,
+    "Strawberry": 71.67,
+    "Pepper, bell": 95.0,
+    "Peach": 83.33,
+    "Raspberry": 96.67,
+    "Grape": 48.33,
+    "Soybean": 66.67,
+    "Potato": 54.44,
+    "Squash": 70.0,
+    "Blueberry": 96.67
+  },
+  "healthy_classes": {
+    "Corn_(maize)___healthy": 96.67,
+    "Strawberry___healthy": 53.33,
+    "Pepper,_bell___healthy": 96.67,
+    "Peach___healthy": 100.0,
+    "Raspberry___healthy": 96.67,
+    "Soybean___healthy": 66.67,
+    "Cherry_(including_sour)___healthy": 50.0,
+    "Grape___healthy": 70.0,
+    "Potato___healthy": 76.67,
+    "Apple___healthy": 50.0,
+    "Blueberry___healthy": 96.67,
+    "Tomato___healthy": 100.0
+  },
+  "top_confusions": [
+    {
+      "true": "Tomato___Leaf_Mold",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "count": 25
+    },
+    {
+      "true": "Grape___Black_rot",
+      "predicted": "Grape___Esca_(Black_Measles)",
+      "count": 14
+    },
+    {
+      "true": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "count": 12
+    },
+    {
+      "true": "Apple___healthy",
+      "predicted": "Peach___healthy",
+      "count": 11
+    },
+    {
+      "true": "Apple___Apple_scab",
+      "predicted": "Apple___Black_rot",
+      "count": 11
+    },
+    {
+      "true": "Tomato___Septoria_leaf_spot",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "count": 11
+    },
+    {
+      "true": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "predicted": "Strawberry___Leaf_scorch",
+      "count": 10
+    },
+    {
+      "true": "Tomato___Bacterial_spot",
+      "predicted": "Tomato___Septoria_leaf_spot",
+      "count": 9
+    },
+    {
+      "true": "Grape___Black_rot",
+      "predicted": "Apple___Black_rot",
+      "count": 9
+    },
+    {
+      "true": "Tomato___Spider_mites_Two-spotted_spider_mite",
+      "predicted": "Tomato___Tomato_mosaic_virus",
+      "count": 9
+    }
+  ]
+}
